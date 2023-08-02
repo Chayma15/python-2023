@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beautiful Boxes</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            background-color: blue;
+        } 
+
+    </style>
+</head>
+<body>
+    {% for _ in range(num_boxes) %}
+        <div class="box"></div>
+    {% endfor %}
+</body>
+</html>
